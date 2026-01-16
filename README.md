@@ -1,4 +1,4 @@
-# DevGenius
+# Manga Creator AI
 
 **Manga Creator AI** es una aplicación web que te permite generar tus propios mangas en un instante. Puedes elegir el genero que desees y tu decidiras que hacer el personaje y que pasa en la historia. La IA seguirá creando el manga contigo.
 
@@ -12,7 +12,7 @@
 1. Clona el repositorio:
 
    ```bash
-   https://github.com/Fenix-Quiroz/DevGenius.git
+   git clone https://github.com/Fenix-Quiroz/manga-creator
    ```
 
 2. En la terminal ejecuta :
@@ -30,13 +30,11 @@ npm run dev
 ## 🧰 Tecnologías utilizadas
 
 1. **Gemini API** – Utilizada para integrar inteligencia artificial en la aplicación.
-2. **React** – Librería para construir interfaces de usuario.
-3. **Vite** – Herramienta de desarrollo y empaquetado rápida para proyectos modernos.
-4. **AIsdk de Vercel** – SDK para integrar inteligencia artificial en la aplicación.
-5. **Tailwind CSS** – Heramienta para estilizar mas rápido y fácil.
-6. **React-Toastify** – Librería para mostrar notificaciones de manera fácil.
-7. **React-Syntax-Highlighter** – Librería para resaltar la sintaxis de fragmentos de código.
-9. **ai-sdk.dev/elements** – AI Elements es una biblioteca de componentes y un registro personalizado basado en shadcn/ui para ayudarte a crear aplicaciones nativas de IA más rápido. Ofrece componentes prediseñados como conversaciones, mensajes y más..
+2. **Next.js** – Librería para construir aplicaciones web con React.
+3. **AIsdk de Vercel** – SDK para integrar inteligencia artificial en la aplicación.
+4. **Tailwind CSS** – Heramienta para estilizar mas rápido y fácil.
+5. **React-Toastify** – Librería para mostrar notificaciones de manera fácil.
+6. **ai-sdk.dev/elements** – AI Elements es una biblioteca de componentes y un registro personalizado basado en shadcn/ui para ayudarte a crear aplicaciones nativas de IA más rápido. Ofrece componentes prediseñados como conversaciones, mensajes y más..
 
 ### 🔑 Configuración de la API de Gemini
 
