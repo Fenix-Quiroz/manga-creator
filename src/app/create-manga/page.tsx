@@ -32,7 +32,7 @@ export default function CreateManga({ genre }: CreateMangaProps) {
             <span className="text-purple-500">{genre}</span>
           </p>
         </div>
-        <p className="w-[300px] text-xs font-bold">
+        <p className="w-75 text-xs font-bold">
           Copia la prompt de la imagen y ve a GEMINI para crear la imagen de tu
           manga
         </p>
