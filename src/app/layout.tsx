@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "MANGA CREATOR AI",
-  description: "Genera tus propios mangas en un instante.Puedes elegir el genero que desees y generar una historia de tu manga favorito.",
+  description:
+    "Genera tus propios mangas en un instante.Puedes elegir el genero que desees y generar una historia de tu manga favorito.",
   icons: {
     icon: "/favicon.ico",
   },

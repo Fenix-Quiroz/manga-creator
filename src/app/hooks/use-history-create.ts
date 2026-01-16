@@ -37,21 +37,20 @@ export function useHistoryCreate(genre: string) {
         promptImage: data.imagePrompt,
       };
       setMessages([newMessage]);
-       setMessages((prevMessages) =>
+      setMessages((prevMessages) =>
         prevMessages.map((message) => {
           if (message.id === messageId) {
-            return { ...message,  imageLoading: false };
+            return { ...message, imageLoading: false };
           }
           return message;
-        }))
+        })
+      );
     } catch (error) {
       console.error("Error generete story: ", error);
     } finally {
       setIsLoading(false);
     }
   };
-
- 
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleSubmit = async (_: any, e: React.FormEvent<HTMLFormElement>) => {
@@ -107,6 +106,6 @@ export function useHistoryCreate(genre: string) {
     isLoading,
     handleInputChange,
     handleSubmit,
-    error
+    error,
   };
 }

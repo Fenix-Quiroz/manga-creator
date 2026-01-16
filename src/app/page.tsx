@@ -8,9 +8,13 @@ export default function Home() {
         <h1 className="text-6xl text-center font-bold text-purple-500">
           MANGA CREATOR AI
         </h1>
-        <div className="flex flex-col items-center  mt-[50px]">
-          <p className="text-2xl text-center font-bold mb-5">Elige un género de manga <br/>
-            <span className="text-xl">Y Continúa la historia como quieras: describe las acciones del personaje y la IA seguirá creando el manga contigo.</span>
+        <div className="flex flex-col items-center  mt-12.5">
+          <p className="text-2xl text-center font-bold mb-5">
+            Elige un género de manga <br />
+            <span className="text-xl">
+              Y Continúa la historia como quieras: describe las acciones del
+              personaje y la IA seguirá creando el manga contigo.
+            </span>
           </p>
           <div className="flex justify-center flex-wrap items-start gap-7 w-[80%] mx-auto">
             {MANGA_GENRES.map((genre) => (

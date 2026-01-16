@@ -1,4 +1,12 @@
-export type MangaGenres = "Action" | "Adventure" | "Comedy" | "Drama" | "Fantasy" | "Historical" | "Horror" | "Romance";
+export type MangaGenres =
+  | "Action"
+  | "Adventure"
+  | "Comedy"
+  | "Drama"
+  | "Fantasy"
+  | "Historical"
+  | "Horror"
+  | "Romance";
 export type Role = "user" | "assistant";
 export interface HistoryMessage {
   id: string;
@@ -17,7 +25,6 @@ export interface GenerateStoryRequest {
   conversationHistory: ConversationMessage[];
   isStart: boolean;
 }
-
 
 export interface GenerateStoryResponse {
   narrative: string;
